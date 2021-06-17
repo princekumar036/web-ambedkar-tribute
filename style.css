@@ -251,10 +251,10 @@ footer .fa-solid {
 }
 
 @media screen and (max-width:768px) {
+    :root {
+        font-size: 10px;
+    }
     .timeline-container {
         grid-template-columns: repeat(3, 1fr);
-    }
-    header h1 {
-        font-size: 2rem;
     }
 }
